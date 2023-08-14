@@ -1,0 +1,45 @@
+.large-hero {
+  position: relative;
+  border-bottom: 10px solid $mainBlue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--img {
+    background: url('../img/hero--large.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+  }
+  &__text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 2.8rem;
+    margin: 0;
+    @mixin atSmall {
+      font-size: 4rem;
+    }
+    @mixin atMedium {
+      font-size: 5.5rem;
+    }
+    @mixin atLarge {
+      font-size: 6.5rem;
+    }
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 1rem;
+    @mixin atSmall {
+      font-size: 2rem;
+    }
+    @mixin atMedium {
+    }
+  }
+}
