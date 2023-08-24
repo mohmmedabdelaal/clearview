@@ -1,0 +1,74 @@
+.beginning{
+    padding: 4.5rem 0;
+    display: flex;
+    justify-content: center;
+    /*background-color: #0a53be;*/
+    align-items: center;
+    background-color: #F8F0E5;
+
+p {
+    padding: 0 1rem 1rem 0;
+}
+&__start {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    &-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    color: $mainBlue;
+    font-weight: 100;
+span {
+    font-weight: 700;
+}
+}
+&-sub {
+    color: #F1C93B;
+    font-weight: 100;
+
+span {
+    color: #504099;
+    font-weight: 700;
+}
+
+}
+}
+&__end {
+    display: flex;
+    justify-content: center;
+
+    max-width:1200px;
+    width: 90%;
+
+-des {
+    display: flex;
+    justify-content: center;
+
+}
+
+}
+&__img1 {
+    background: url('../img/first-trip.jpg') no-repeat center center;
+    background-size: cover;
+    width: 80%;
+    height: 20rem;
+    border-radius: 4px;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+
+&:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.08);
+}
+
+}
+&__img2 {
+    background: url('../img/our-start.jpg') no-repeat center center;
+    background-size: cover;
+    width: 90%;
+    height: 25rem;
+    margin-right: 2.5rem;
+}
+
+}

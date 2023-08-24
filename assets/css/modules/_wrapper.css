@@ -1,6 +1,7 @@
 .wrapper {
-  width: 100%; /* Adjust the width as per your requirement */
-  max-width: 1200px; /* Adjust the maximum width as per your requirement */
-  margin: 0 auto; /* Center the wrapper horizontally */
-  padding: 20px; /* Add padding to the wrapper */
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /*margin: 0 auto;*/
+
 }

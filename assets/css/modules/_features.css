@@ -1,0 +1,33 @@
+.features{
+    padding: 4.5rem 0;
+    color: #ffffff;
+    background-color: #337CCF;
+    display:flex;
+    justify-content: center;
+align-items: center;
+i{
+    font-size: 3rem;
+    color: #ffc107;
+    padding-right: 1rem;
+    fill: #ffc107;
+}
+h3{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+&--title{
+    display: flex;
+    justify-content: center;
+    color: rgba(255,255,255,0.76);
+
+ }
+    &--star{
+         background: url('../img/star.svg') no-repeat center center;
+         background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    /*padding-right: 1rem;*/
+    margin-right: 1rem;
+    }
+
+}

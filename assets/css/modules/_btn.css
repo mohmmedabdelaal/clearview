@@ -1,31 +1,27 @@
 .btn {
-  align-items: center;
-  background-clip: padding-box;
-  background-color: $mainBlue;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, 'Helvetica Neue', Helvetica,
-    Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  display: inline-block;
   position: relative;
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+  margin: 5px;
+  padding: 8px 22px;
+  font-size: 0.875rem;
+  line-height: 24px;
+  background-color: #1ABC9C;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  /* Buttons - Border
+  -----------------------------------------------------------------*/
+  /* Buttons - 3D
+-----------------------------------------------------------------*/
+  /* Buttons - Icon Reveal
+  -----------------------------------------------------------------*/
+
 }
 
 .btn:hover,

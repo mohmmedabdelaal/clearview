@@ -1,3 +1,4 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
 import '../assets/css/style.css';
 
 const app = document.querySelector('#app');

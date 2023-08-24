@@ -1,4 +1,5 @@
 @import 'normalize.css';
+@import 'base/bootstrap.css';
 @import 'base/_reset.css';
 @import 'base/_variables.css';
 @import 'base/_mixins.css';
@@ -6,4 +7,6 @@
 @import 'modules/_large-hero.css';
 @import 'modules/_wrapper.css';
 @import 'modules/_btn.css';
-@import 'modules/_page-section.css';
+@import 'modules/_begging-page.css';
+@import 'modules/_important-classes.css';
+@import 'modules/_features.css';

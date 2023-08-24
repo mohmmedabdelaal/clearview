@@ -1,13 +1,7 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 // import ScriptExtHtmlWebpackPlugin from 'script-ext-html-webpack-plugin';
-const postCSSPlugins = [
-  require('postcss-mixins'),
-  require('postcss-import'),
-  require('postcss-simple-vars'),
-  require('postcss-nested'),
-  require('autoprefixer'),
-];
+const postCSSPlugins = [require("postcss-import"), require("postcss-mixins"), require("postcss-simple-vars"), require("postcss-nested"), require("autoprefixer")]
 
 export default {
   entry: path.join(__dirname, 'src/index.js'),
@@ -33,7 +27,7 @@ export default {
         use: ['babel-loader'],
       },
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: [
           'style-loader',
           'css-loader',
@@ -48,15 +42,15 @@ export default {
         type: 'asset/resource',
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: ['file-loader'],
+        test: /\.woff2?$/,
+        type: "asset/resource",
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'index.html'),
-      favicon: 'assets/img/icons/facebook.svg',
+      favicon: 'assets/img/facebook.svg',
     }),
   ],
   stats: 'minimal',

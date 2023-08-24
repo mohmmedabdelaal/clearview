@@ -1,0 +1,47 @@
+.text-ts {
+    -webkit-transition: color .5s ease;
+    transition: color .5s ease;
+}
+
+
+.fancy-title {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.fancy-title h1,
+.fancy-title h2,
+.fancy-title h3,
+.fancy-title h4,
+.fancy-title h5,
+.fancy-title h6 {
+    position: relative;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.fancy-title::before,
+.fancy-title::after {
+    content: '';
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    height: 0;
+    border-top: 3px double #E5E5E5;
+}
+
+.fancy-title::before {
+    display: none;
+    margin-right: 0.75rem;
+}
+
+.fancy-title::after {
+    margin-left: 0.75rem;
+}
