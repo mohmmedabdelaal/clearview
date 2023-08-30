@@ -1,4 +1,75 @@
 .testimonial{
-    height: 30rem;
+    z-index: 1;
+    background:  linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)), url("../img/hero--medium.jpg") center center no-repeat;
+    background-size: cover;
+&--testi{
+     position: relative;
+    margin-top: 10px;
+     padding: 20px;
+     background-color: #FFF;
+     border: 1px solid rgba(0,0,0,0.1);
+     border-radius: 5px;
+     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+ }
+    &--title{
+        color: #FFF4F4;
+        font-size: 3rem;
+    }
 
+     &--img1{
+          background:  url("../img/testimonial-cat.jpg") center center no-repeat;
+          background-size: cover;
+          float: left;
+          margin-right: 15px;
+          width: 74px;
+          height: 74px;
+          display: block;
+          border-radius: 50%;
+      }&--img2{
+          background:  url("../img/testimonial-jane.jpg") center center no-repeat;
+          background-size: cover;
+          float: left;
+          margin-right: 15px;
+          width: 74px;
+          height: 74px;
+          display: block;
+          border-radius: 50%;
+      }&--img3{
+          background:  url("../img/testimonial-john.jpg") center center no-repeat;
+          background-size: cover;
+          float: left;
+          margin-right: 15px;
+          width: 74px;
+          height: 74px;
+          display: block;
+          border-radius: 50%;
+      }
+
+&--content{
+     position: relative;
+     overflow: hidden;
+     margin-bottom: 0;
+     font-family: 'PT Serif', serif;
+     font-style: italic;
+    p::before , p::after {
+        content: '"';
+     }
+    &-meta{
+         margin-top: 10px;
+         font-size: 15px;
+         font-weight: bold;
+         text-transform: uppercase;
+        &::before {
+        content: '\2013';
+         }
+         span{
+             display: block;
+             font-weight: normal;
+             color: #999;
+             font-size: 13px;
+             text-transform: none;
+             padding-left: 10px;
+         }
+     }
+ }
 }

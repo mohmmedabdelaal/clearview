@@ -1,0 +1,26 @@
+.footer{
+    color: #FFFFFF;
+    background: #93B1A6;
+}
+
+
+
+.copyrights-menu { margin-bottom: 10px; }
+
+.copyrights-menu a {
+    font-size:1.2rem;
+    margin: 0 10px;
+    border-bottom: 0 !important;
+}
+
+.copyright-links a {
+    display: inline-block;
+    margin: 0 5px;
+    color: #191D88;
+    border-bottom: 1px dotted #191D88;
+}
+
+.copyright-links a:hover {
+    color: #1450A3;
+    border-bottom: 1px solid #FFC436;
+}
